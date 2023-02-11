@@ -33,7 +33,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 /* BUTTON */
@@ -47,6 +47,8 @@ body {
   color: rgb(255, 255, 255);
   border-radius: 5px;
   cursor: grab;
+  font-size: x-large;
+  padding-top: 10px;
 }
 
 /* VIDEO */
@@ -191,9 +193,6 @@ margin-bottom: 50px;
 }
 
 /* GALLERIE */
-.gallerie-container{
-
-}
 
 .gallerie_titel{
 color: white;
@@ -273,15 +272,14 @@ justify-content: center;
   }
   .button{
     width: 700px;
-    font-size: smaller;
+    font-size: medium;
   }
   .video-container {
     display: none;
   }
-  .aboutme-container{
-    
-  }
-  .aboutme_titel h1{
+  .aboutme_titel{
+    display: flex;
+    justify-content: center;
     font-size: x-large;
     padding-top: 20px;
   }
@@ -296,9 +294,6 @@ justify-content: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  .aboutme_credit p{
-    
   }
   
   .diskografie-container{
