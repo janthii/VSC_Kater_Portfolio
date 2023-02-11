@@ -5,7 +5,7 @@ div {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-weight: 500;
+  font-weight: 200;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 header {
@@ -61,6 +61,7 @@ body {
 .aboutme-container{
   justify-content: center;
   color: white;
+  padding-left: 80px;
   
 }
 .aboutme_titel{
@@ -76,7 +77,7 @@ body {
 .aboutme_credit{
   color: white;
   text-align: right;
-  margin-right: 55px;
+  padding-right: 155px;
   font-size: 10px;
 }
 .aboutme_text a{
@@ -91,6 +92,7 @@ body {
 /* DISKOGRAFIE */
 .diskografie-container{
   color: white;
+  
 }
 .diskografie_titel{
   text-align: center;
@@ -100,28 +102,28 @@ body {
 .diskografie_2019{
   margin-top: 20px;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.2vw;
   margin-bottom: 100px;
 }
 .diskografie_2020{
   margin-top: 20px;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 .diskografie_2021{
   margin-top: 20px;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 .diskografie_2022{
   margin-top: 20px;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 .diskografie_2023{
   margin-top: 20px;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 /* SOZIALE MEDIEN */
@@ -190,9 +192,9 @@ margin-bottom: 50px;
 
 /* GALLERIE */
 .gallerie-container{
-  display: flex;
-  color: white;
+
 }
+
 .gallerie_titel{
 color: white;
 text-align: center;
@@ -242,7 +244,124 @@ justify-content: center;
 
 /* COPYRIGHT */
 .bottom {
-  float: none;
+  display: flex;
+  justify-content: center;
   color: white;
   margin-top: 100px;
+}
+
+@media only screen and (max-width: 700px) 
+{
+  div {
+    border: 1px solid rgb(0, 0, 0);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+  .logo{
+    width: 700px;
+  }
+  .button_container{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+  }
+  .button{
+    width: 700px;
+    font-size: smaller;
+  }
+  .video-container {
+    display: none;
+  }
+  .aboutme-container{
+    
+  }
+  .aboutme_titel h1{
+    font-size: x-large;
+    padding-top: 20px;
+  }
+  .aboutme-container h2{
+    font-size: small;
+    display: inline-block;
+    justify-content: center;
+  }
+  .aboutme-container img {
+    width: 60vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .aboutme_credit p{
+    
+  }
+  
+  .diskografie-container{
+    width: 700px;
+    list-style-type: none;
+  }
+  .diskografie_titel{
+    font-size: x-large;
+  }
+  .diskografie_2023{
+    font-size: large;
+  }
+  .diskografie_2022{
+    font-size: large;
+  }
+  .diskografie_2021{
+    font-size: large;
+  }
+  .diskografie_2020{
+    font-size: large;
+  }
+  .diskografie_2019{
+    font-size: large;
+  }
+  .spotifyplayer{
+    width: 700px;
+  }
+  .sozialemedien-container{
+    width: 700px;
+  }
+  .sozialemedien_links{
+    width: 700px;
+  }
+  .gallerie-container{
+    width: 700px;
+  }
+  .gallerie_titel{
+    width: 700px;
+  }
+  .gallerie_firstrow{
+    flex-wrap: wrap;
+  }
+  .gallerie_firstrow img{
+    padding: 10px 0px 10px 0px;
+  }
+  .gallerie_download{
+    width: 700px;
+  }
+  .video-container{
+    width: 700px;
+  }
+  .video_arrange{
+    flex-wrap: wrap;
+    width: 700px;
+  }
+   .video_namen{
+    width: 700px;
+    display: none;
+  }
+  .aktuelles-container{
+    width: 700px;
+  }
+  .bottom-container{
+    width: 700px;
+  }
 }
